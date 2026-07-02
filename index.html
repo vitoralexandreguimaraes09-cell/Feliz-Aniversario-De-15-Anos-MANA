@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Feliz 15 anos ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- GSAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+
+    <!-- Typed -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Confetti -->
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<canvas id="stars"></canvas>
+<canvas id="fireworks"></canvas>
+
+<body>
+<audio id="bgMusic" loop>
+    <source src="assets/music/musica.mp3" type="audio/mpeg">
+</audio>
+    <!-- Fundo -->
+
+    <div id="background"></div>
+
+    <!-- Tela de Boot -->
+
+    <section id="boot">
+
+        <div class="terminal">
+
+            <h1>Sistema iniciado...</h1>
+
+            <p id="bootText"></p>
+
+            <button id="startButton">
+                EXECUTAR
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Tela Principal -->
+
+    <section id="home" class="scene hidden">
+
+    <div class="glass">
+
+        <h1 class="title">
+            Feliz 15 anos ❤️
+        </h1>
+
+        <h2 class="name">
+            Mana
+        </h2>
+
+        <p class="subtitle">
+
+            Preparei uma pequena surpresa feita especialmente para você.
+
+        </p>
+
+        <button id="continue">
+
+            O que será?...
+
+        </button>
+
+    </div>
+
+    </section>
+
+    <section id="gallery" class="scene hidden">
+
+    <div class="gallery-container">
+
+    <div class="photo-box">
+
+        <img id="photo" src="">
+
+    </div>
+
+    <div class="text-box">
+
+        <h2 id="photoTitle"></h2>
+
+        <p id="photoText"></p>
+
+        <button id="nextPhoto">
+            Próxima foto ❤️
+        </button>
+
+    </div>
+
+</div>
+
+</section>
+
+<section id="gift" class="scene hidden">
+
+    <div class="glass">
+
+        <h1>🎁 Um presente especial</h1>
+
+        <p id="giftText"></p>
+
+        <button id="finalBtn">
+            Continuar ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<section id="final" class="scene hidden">
+
+    <div class="glass">
+
+        <h1>Feliz 15 anos ❤️</h1>
+
+        <p id="finalText"></p>
+
+    </div>
+
+</section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
