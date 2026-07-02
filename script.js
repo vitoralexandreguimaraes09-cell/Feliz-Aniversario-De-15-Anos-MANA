@@ -119,7 +119,7 @@ startButton.onclick=()=>{
 const fotos=[
 
 {
-imagem:"assets/fotos/1.jpg",
+imagem:"1.jpg",
 
 titulo:"Tudo começou em 2011",
 
@@ -127,7 +127,7 @@ texto:"Quando uma menina nasceu, cresceu, e hoje(ontem) faz(fez) 15 anos..."
 },
 
 {
-imagem:"assets/fotos/2.jpg",
+imagem:"2.jpg",
 
 titulo:"Os primeiros passos",
 
@@ -135,7 +135,7 @@ texto:"para nós construirmos uma vida de programador e designer!"
 },
 
 {
-imagem:"assets/fotos/3.jpg",
+imagem:"3.jpg",
 
 titulo:"Te amo!",
 
@@ -143,7 +143,7 @@ texto:"Cada foto guarda a Sua IMENSA BELEZA!"
 },
 
 {
-imagem:"assets/fotos/4.jpg",
+imagem:"4.jpg",
 
 titulo:"O tempo passou",
 
@@ -151,7 +151,7 @@ texto:"Parece que foi ontem... mas hoje você completa 15 anos."
 },
 
 {
-imagem:"assets/fotos/5.jpg",
+imagem:"5.jpg",
 
 titulo:"Seu jeito único",
 
@@ -159,7 +159,7 @@ texto:"Seu sorriso, sua personalidade e seu coração fazem você ser quem é."
 },
 
 {
-imagem:"assets/fotos/6.jpg",
+imagem:"6.jpg",
 
 titulo:"Novos sonhos",
 
@@ -167,7 +167,7 @@ texto:"Que essa nova fase seja cheia de oportunidades e felicidade."
 },
 
 {
-imagem:"assets/fotos/7.jpg",
+imagem:"7.jpg",
 
 titulo:"Uma nova etapa",
 
@@ -175,7 +175,7 @@ texto:"15 anos de brigas, mas mesmo assim eu te amo❤️"
 },
 
 {
-imagem:"assets/fotos/8.jpg",
+imagem:"8.jpg",
 
 titulo:"Feliz aniversário",
 
@@ -296,9 +296,9 @@ function openGift(){
         ],
 
         typeSpeed:40,
-        backSpeed:20,
-        showCursor:true
-
+        backSpeed:0,
+        showCursor:true,
+        loop: false
     });
 
 }
